@@ -1,7 +1,7 @@
 pipeline{
     agent any
 
-    ENVIRONMENT{
+    environment{
         EC2_HOST= "13.201.166.61"          //ip of ec2 server
         SSH_CREDENTIAL_ID = "ec2-ssh-key"   // .pem file content 
         REMOTE_USER = "ubuntu"
